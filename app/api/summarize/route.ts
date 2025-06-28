@@ -54,7 +54,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ summary });
   } catch (err) {
     return NextResponse.json(
-      { error: "Something went wrong", details: String(err) },
+      { error: "Please sign in to start summarizing!", details: String(err) },
       { status: 500 }
     );
   }
