@@ -46,7 +46,7 @@ export default function SummarizePage() {
         toast.error(data.error || "Failed to generate summary");
       }
     } catch (error) {
-      toast.error("Please sign in to continue!");
+      toast.error("Something went wrong. Please try again!");
     } finally {
       setLoading(false);
     }
