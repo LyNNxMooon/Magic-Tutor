@@ -39,7 +39,7 @@ Never fabricate information. Be concise and clear.`;
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-pro-latest",
+      model: "gemini-2.5-flash-latest",
       config,
       contents: [
         {
